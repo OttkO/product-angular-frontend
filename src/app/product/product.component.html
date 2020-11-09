@@ -1,0 +1,20 @@
+<div class = "container">
+    <div class = "card">
+        <h3 class="text-centered">Product list</h3> 
+        <div class = "card-body">
+            <table class = "table table-striped">
+                    <thead>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor = "let product of products" >
+                            <td> {{ product.name }} </td>
+                            <td> {{ product.category }} </td>
+                            <td> {{ product.description }} </td>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+</div>
