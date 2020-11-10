@@ -1,2 +1,17 @@
+<nav class = "navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a routerLink="products" routerLinkActive="active" class = "nav-link"> Product List</a>
+        </li>
+        <li class = "nav-item">
+            <a routerLink="create-product" routerLinkActive="active" class = "nav-link"> Create Product</a>
+        </li>
+    </ul>
+</nav>
 <h1 class = "text-center">Product tutorial</h1> 
-<app-product></app-product>
+<router-outlet></router-outlet>
+<footer class = "footer">
+    <div class = "container">
+        <span>All rights not Reserved 2020</span>
+    </div>
+</footer>
