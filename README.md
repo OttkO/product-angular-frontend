@@ -14,7 +14,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Information
 
 The code is a modified verison of :
-https://www.youtube.com/watch?v=_rMAnZIcRiU
+https://github.com/RameshMF/Angular-10-Spring-Boot-CRUD-Full-Stack-App
 We use a Product instead of a User.
 I have already created the backend in 
 https://github.com/OttkO/product-spring-backend
