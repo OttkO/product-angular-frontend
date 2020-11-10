@@ -35,4 +35,8 @@ export class ProductComponent implements OnInit {
     });
   }
 
+  viewProduct(id:number) {
+    this.router.navigate(['view-product', id])
+  }
+
 }
