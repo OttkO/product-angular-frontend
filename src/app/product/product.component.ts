@@ -28,4 +28,11 @@ export class ProductComponent implements OnInit {
     this.router.navigate(['update-product', id])
   }
 
+  deleteProduct(id:number) {
+    this.productService.deleteProductById(id).subscribe(data => {
+      console.log(data);
+      this.getProducts();
+    });
+  }
+
 }
